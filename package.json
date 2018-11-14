@@ -1,0 +1,17 @@
+{
+  "name": "shelokumgiq.github.io",
+  "version": "1.0.0",
+  "description": "my home page",
+  "private": true,
+  "scripts": {
+    "init": "docsify init .",
+    "serve": "docsify serve --livereload-port 8081 --port 8080 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shelo Kumgiq",
+  "license": "MIT",
+  "devDependencies": {
+    "docsify-cli": "^4.3.0"
+  }
+}
