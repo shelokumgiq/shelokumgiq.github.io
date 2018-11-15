@@ -6,12 +6,24 @@
   "scripts": {
     "init": "docsify init .",
     "serve": "docsify serve --livereload-port 8081 --port 8080 .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rmmk": "rimraf css && mkdir css",
+    "css": "stylus src/themes/shelo.styl -u autoprefixer-stylus",
+    "cssmin": "node build/mincss-shelo.js",
+    "watch:css": "run-p 'css -- -o css -w'",
+    "build:css:min": "run-s rmmk 'css -- -o css' cssmin",
+    "build:css": "run-s rmmk 'css --  -o css'"
   },
   "keywords": [],
   "author": "Shelo Kumgiq",
   "license": "MIT",
   "devDependencies": {
-    "docsify-cli": "^4.3.0"
-  }
+    "autoprefixer-stylus": "^0.14.0",
+    "cssnano": "^4.1.7",
+    "docsify-cli": "^4.3.0",
+    "npm-run-all": "^4.1.3",
+    "rimraf": "^2.6.2",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {}
 }
