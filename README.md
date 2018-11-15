@@ -2,10 +2,6 @@
 
 > Greeting! Welcome to my home page
 
-## Yo
+## WIP
 
-How are you today?
-
-### Ye Ye
-
-Hello again
+work in progress

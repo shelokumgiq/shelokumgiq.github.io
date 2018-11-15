@@ -1,8 +1,5 @@
 * ⚙️ Setting
-  * [Configuration](configuration.md)
-  * [Themes](themes.md)
-  * [Using plugins](plugins.md)
-  * [Markdown configuration](markdown.md)
-  * [Language highlight](language-highlight.md)
+  * [WIP](wip.md)
+  * [Coming soon](coming.md)
 * [En](/)
 * [Th](/th/)
