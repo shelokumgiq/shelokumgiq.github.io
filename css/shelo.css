@@ -859,3 +859,6 @@ pre::after {
 .img-profile {
   border-radius: 50%;
 }
+.container {
+  width: 70%;
+}

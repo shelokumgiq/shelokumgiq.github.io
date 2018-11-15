@@ -11,7 +11,9 @@
 ## Second Life
 
 [Link](https://secondlife.com/)
-[My profile](https://my.secondlife.com/shelokumgiq)
+
+[My secondlife profile](https://my.secondlife.com/shelokumgiq)
 
 ![Second Life](/img/games/CreatorImage_Architecture_Final.jpg "Second Life")
+
 ![Second Life](/img/games/CreatorResources_Forums_460x230.jpg "Second Life")
